@@ -1,10 +1,9 @@
 import React from 'react';
-import style from '@/app/styles/common.module.css'
 
 const Page = () => {
     return (
         <>
-            <div className={style.hm}> Hello MSHV Site. </div>
+            <div> This is Contact Us page. </div>
         </>
     );
 };

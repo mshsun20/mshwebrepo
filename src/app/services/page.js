@@ -1,9 +1,10 @@
 import React from 'react';
+import style from '@/app/styles/common.module.css'
 
 const Page = () => {
     return (
         <>
-            <div>Service page</div>
+            <div className={style.cmmn}>Service page</div>
         </>
     );
 };

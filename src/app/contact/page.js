@@ -1,9 +1,10 @@
 import React from 'react';
+import style from '@/app/styles/common.module.css'
 
 const Page = () => {
     return (
         <>
-            <div> This is Contact Us page. </div>
+            <div className={style.cmmn}> This is Contact Us page. </div>
         </>
     );
 };
